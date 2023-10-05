@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Traveler (Template 12)</title>
+    <meta property="og:title" content="Traveler (Template 12)" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Karla;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <section class="home-hero">
+          <div class="home-main">
+            <div class="home-video">
+              <video
+                src=""
+                poster="back.jpg"
+                
+                class="home-video1"
+              ></video>
+              <div class="home-tint"></div>
+            </div>
+            <div class="home-content">
+              <header data-thq="thq-navbar" class="home-navbar">
+                <div data-thq="thq-burger-menu" class="home-menu">
+                  <div class="home-links">
+                    <span class="link">
+                    </span>
+                      <a href="#tours" class="home-link01 link">Services</a>
+                      
+                    <a href="#testimonials_id" class="home-link01 link">Testimonials</a>
+                    
+                    <a href="#find" class="home-link01 link">Contact</a>
+                  </div>
+                  <button class="home-hamburger button">
+                    <svg viewBox="0 0 1024 1024" class="home-icon">
+                      <path
+                        d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+                <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+                  <div
+                    data-thq="thq-mobile-menu-nav"
+                    data-role="Nav"
+                    class="home-nav"
+                  >
+                    <div class="home-container1">
+                      <img alt="logo" src="logo.jpg" class="home-logo" />
+                      <div data-thq="thq-close-menu" class="home-menu-close">
+                        <svg viewBox="0 0 1024 1024" class="home-icon02">
+                          <path
+                            d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                    <nav
+                      data-thq="thq-mobile-menu-nav-links"
+                      data-role="Nav"
+                      class="home-nav1"
+                    >
+                      <span class="home-text04">About</span>
+                      <span class="home-text05">Features</span>
+                      <span class="home-text06">Pricing</span>
+                      <span class="home-text07">Team</span>
+                      <span class="home-text08">Blog</span>
+                    </nav>
+                    <div class="home-container2">
+                      <button class="home-login button">Login</button>
+                      <button class="button">Register</button>
+                    </div>
+                  </div>
+                  <div class="home-icon-group">
+                    <svg
+                      viewBox="0 0 950.8571428571428 1024"
+                      class="home-icon04"
+                    >
+                      <path
+                        d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                      ></path></svg
+                    ><svg
+                      viewBox="0 0 877.7142857142857 1024"
+                      class="home-icon06"
+                    >
+                      <path
+                        d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                      ></path></svg
+                    ><svg
+                      viewBox="0 0 602.2582857142856 1024"
+                      class="home-icon08"
+                    >
+                      <path
+                        d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </header>
+              <div class="home-center">
+                <div class="home-heading">
+                  <img src="logo.png" alt="logo" style="width: 75px;">
+                  <h2 style="margin-top:-2px; font-size: 50px; color:white">TrishnaWebWorks</h2>
+                  <h1 class="home-header">
+                    <span>Your One Stop for all IT solutions.</span>
+                    <br />
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="features" class="home-feaures" style="background-color: black;">
+            <div class="home-content01">
+              <div class="feature-feature">
+                <div class="feature-heading" >
+                  <img
+                    alt="image"
+                    src="public/Icons/headset.svg"
+                    class="feature-icon"
+                  />
+                  <h3 class="feature-header" ><span>Focused attention to your needs</span></h3>
+                </div>
+                <p class="feature-description">
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Services -->
+        <section id="tours" class="home-quick-view">
+          <div class="home-main1">
+            <div class="home-heading01">
+              <h2 class="home-header01">
+                <br />
+              </h2>
+              <p class="home-caption" style="padding:30%; font-size: 25px; max-width:fit-content">
+                Experienced team of professionals <i>building reliable and secure
+                products</i>
+              </p>
+              <p  style="padding:10%; font-size: 25px; max-width:fit-content">Services we provide</p>
+            </div>
+          </div>
+          <div class="home-offers" >
+            <a href="index.html">
+              <div class="home-offer-container" >
+                <div class="offer-offer">
+                  <img
+                    alt="image"
+                    src="web_d.jpg"
+                    class="offer-image"
+                  />
+                  <div class="offer-content" >
+                    <div class="offer-details">
+                      <span class="offer-text"><span>Web Development</span></span>
+                      <span class="offer-text1"><span>
+                        
+                        <p>At TrishnaWebWorks, we're passionate about crafting exceptional web experiences. Our web development services encompass a wide spectrum, from creating custom websites that align perfectly with your brand to building e-commerce platforms that drive sales. We pride ourselves on responsive design, ensuring your site looks and functions flawlessly on all devices. Plus, our ongoing support ensures your online presence remains vibrant and up-to-date.</p>
+                        <br>
+                      </span></span>
+                    </div>
+                  </div>
+                  <span class="offer-text2"><span></span></span>
+                </div>
+              </div>
+            </a>
+            <a href="index.html">
+              <div class="home-offer-container1">
+                <div class="offer-offer">
+                  <img
+                    alt="image"
+                    src="data_security.jpeg"
+                    class="offer-image"
+                  />
+                  <div class="offer-content">
+                    <div class="offer-details">
+                      <span class="offer-text">
+                        <span>Data Security</span>
+                      </span>
+                      <span class="offer-text1">
+                        <p>
+                          Security breaches can have devastating consequences, which is why we take data security seriously. TrishnaWebWorks offers a robust set of Data Security solutions, including state-of-the-art data encryption to safeguard your information during transmission and storage. Our access control and identity verification measures grant you control over data access, while our data backup and recovery systems ensure your critical data is always safe and recoverable. We conduct regular security audits, provide rapid incident response in case of breaches, and assist you in navigating complex data security regulations. Our employee training programs instill best practices for data security throughout your organization.
+                        </p><br>
+
+                      </span>
+                    </div>
+                  </div>
+                  <span class="offer-text2"><span></span></span>
+                </div>
+              </div>
+            </a>
+            <a href="index.html">
+              <div class="home-offer-container2">
+                <div class="offer-offer">
+                  <img
+                    alt="image"
+                    src="ml.jpg"
+                    class="offer-image"
+                  />
+                  <div class="offer-content">
+                    <div class="offer-details">
+                      <span class="offer-text">
+                        <span>Machine Learning</span>
+                      </span>
+                      <span class="offer-text1">
+                        <p>
+                          TrishnaWebWorks offers cutting-edge Machine Learning solutions that harness the power of artificial intelligence to drive innovation and efficiency in your business. Machine Learning is revolutionizing industries across the globe, and we're here to help you leverage its potential. 
+                        </p>
+                      </span>
+                    </div>
+                  </div>
+                  <span class="offer-text2"><span></span></span>
+                </div>
+              </div>
+            </a>
+            <br>
+        </section>
+        
+        
+        
+        <!-- CUSTOMER TESTIMONIALS -->
+        <section id="testimonials_id"class="home-testimonials">
+          <div class="home-content02">
+            <div class="home-heading02">
+              <span class="home-title">Customer testimonial</span>
+              
+              <div>
+              <p class="home-quote">
+                "TrishnaWebWorks transformed our outdated website into a modern and functional masterpiece. Their web development team's attention to detail and commitment to excellence is truly commendable. The result? A website that not only looks fantastic but also drives more traffic and conversions. We couldn't be happier!"
+              </p>
+            
+<!-- first review -->
+            <div class="home-details" >
+              <div class="home-author">
+                <img
+                  alt="image"
+                  src="SATISH-SHARMA-opt.jpg"
+                  class="home-avatar"
+                  style="margin-block-end: 60px;"/>
+                <span class="home-name">Satish Sharma</span>
+              </div>
+            </div>
+
+<!-- 2nd review -->
+            <div>
+              <p class="home-quote">
+                "Data security is non-negotiable for our organization, and TrishnaWebWorks has been our trusted partner in this regard. Their Data Security solutions are top-notch. From encryption to access control, they've got it all covered. We now feel confident that our sensitive data is in safe hands."
+              </p>
+            <div class="home-details" style="">
+              <div class="home-author">
+                <img
+                  alt="image"
+                  src="ujjwal_gupta.jpeg"
+                  class="home-avatar"
+                  style="margin-block-end: 60px;"
+                />
+                <span class="home-name">Ujjwal Gupta</span>
+              </div>
+            </div>
+
+<!-- 3rd review -->
+            <div>
+              <p class="home-quote">
+                "TrishnaWebWorks' Machine Learning solutions have been a game-changer for our business. Their predictive analytics helped us make data-driven decisions that boosted our revenue significantly. The team's expertise and personalized approach made the implementation seamless, and we continue to see the benefits."
+              </p>
+            <div class="home-details" style="">
+              <div class="home-author">
+                <img
+                  alt="image"
+                  src="abitha.jpeg"
+                  class="home-avatar"
+                />
+                <span class="home-name">Abitha Narayanan</span>
+              </div>
+            </div>
+          </div>
+              
+            </div>
+          </div>
+        </section>
+
+
+        <!-- ABOUT US  -->
+        <section id="how-it-works" class="home-highlights">
+          <div class="home-highlight">
+            <div class="home-content03">
+              <div class="home-heading03">
+                <h2 class="home-header02">
+                  About us 
+                </h2>
+                <p class="home-caption01">
+                </p>
+              </div>
+            </div>
+            <div class="home-image">
+              <img
+                alt="image"
+                src="about.png"
+                class="home-image1"
+                style="width: 1450px; margin-left: -100px;"
+              />
+              
+            </div>
+          </div>
+        </section>
+        
+
+        <!-- MEET THE TEAM  -->
+        <section id="guides" class="home-guides">
+          <div class="home-heading06">
+            <h2 class="home-header05">Meet the team</h2>
+            <p class="home-caption05">
+              
+            </p>
+          </div>
+          <div class="home-list1" style="display:grid; margin-left:400px">
+           
+              <div class="home-guide-wrapper">
+                <div class="guide-guide">
+                  <img
+                    alt="image"
+                    src="manya.jpg"
+                    class="guide-portrait"
+                  />
+                  <div class="guide-details">
+                    <h3 class="guide-name"><span>Manya Kakkar</span></h3>
+                    <span class="guide-location">
+                      <span>Senior Software Engineer</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="home-guide-wrapper1">
+                <div class="guide-guide guide-root-class-name2">
+                  <img
+                    alt="image"
+                    src="chitrang.jpeg"
+                    class="guide-portrait"
+                  />
+                  <div class="guide-details">
+                    <h3 class="guide-name"><span>Chitrang Vashisth</span></h3>
+                    <span class="guide-location">
+                      <span>CFO, Senior Software Engineer</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="home-guide-wrapper2">
+                <div class="guide-guide guide-root-class-name">
+                  <img
+                    alt="image"
+                    src="Ravi Soni.jpeg"
+                    class="guide-portrait"
+                  />
+                  <div class="guide-details">
+                    <h3 class="guide-name"><span>Roni Soni</span></h3>
+                    <span class="guide-location">
+                      <span>CEO, Senior Software Engineer</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            
+          </div>
+        </section>
+
+
+        
+        <!-- FREQUENTLY ASKED QUESTIONS -->
+        <section class="home-faq">
+          <div id="faqs" class="home-content06">
+            <div class="home-heading08">
+              <h2 class="home-header07">Frequently asked questions</h2>
+              <p class="home-caption07">
+              </p>
+            </div>
+            <div class="home-accordion">
+              <div
+                data-role="accordion-container"
+                class="accordion home-element"
+              >
+                <div class="home-content07">
+                  <span class="home-header08">
+                    What industries do your Machine Learning solutions cater to?
+                  </span>
+                  <span data-role="accordion-content" class="home-description">
+                    Our Machine Learning solutions are versatile and applicable to a wide range of industries. We have successfully served clients in finance, healthcare, e-commerce, and more. Whether you're a startup or an established enterprise, our Machine Learning services can be tailored to meet your specific needs.
+                  </span>
+                </div>
+                <div class="home-icon-container">
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-closed"
+                    class="home-icon14"
+                  >
+                    <path
+                      d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-open"
+                    class="home-icon16"
+                  >
+                    <path
+                      d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div
+                data-role="accordion-container"
+                class="home-element1 accordion"
+              >
+                <div class="home-content08">
+                  <span class="home-header09">
+                    How does TrishnaWebWorks ensure data security and compliance with regulations?
+                  </span>
+                  <span data-role="accordion-content" class="home-description1">
+                    We prioritize data security and compliance. Our Data Security solutions include robust encryption, access control, and identity verification. We also conduct regular security audits and provide guidance to help you navigate industry-specific regulations, such as GDPR and HIPAA.
+                  </span>
+                </div>
+                <div class="home-icon-container1">
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-closed"
+                    class="home-icon18"
+                  >
+                    <path
+                      d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-open"
+                    class="home-icon20"
+                  >
+                    <path
+                      d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div
+                data-role="accordion-container"
+                class="home-element2 accordion"
+              >
+                <div class="home-content09">
+                  <span class="home-header10">
+                    What ongoing support do you offer for websites developed by TrishnaWebWorks?
+                  </span>
+                  <span data-role="accordion-content" class="home-description2">
+                    Our commitment doesn't end with the launch of your website. We provide comprehensive ongoing support, including updates, maintenance, and troubleshooting. Our goal is to ensure your website remains secure, up-to-date, and performing at its best.
+                  </span>
+                </div>
+                <div class="home-icon-container2">
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-closed"
+                    class="home-icon22"
+                  >
+                    <path
+                      d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-open"
+                    class="home-icon24"
+                  >
+                    <path
+                      d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              
+              
+                <div class="home-icon-container4">
+                  <svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-closed"
+                    class="home-icon30"
+                  >
+                    <path
+                      d="M213.333 554.667h256v256c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667v256h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 1024 1024"
+                    data-role="accordion-icon-open"
+                    class="home-icon32"
+                  >
+                    <path
+                      d="M213.333 554.667h597.333c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-597.333c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+        <section id="find" class="home-find2">
+          <div class="home-heading09">
+            <h2 class="home-header13">Get Reliable Solutions Now</h2>
+            <p class="home-caption08">
+            </p>
+          </div>
+          <p class="home-find3 button">Info@TrishnaWebWorks.co</p>
+        </section>
+        
+        
+        <section class="home-footer">
+          <div class="home-content12">
+            <div class="home-main2">
+              <div class="home-branding">
+                <div class="home-heading10">
+                  <img alt="image" src="logo.png" class="home-image5" />
+                  <p class="home-caption09">
+                    
+                  </p>
+                </div>
+              </div>
+              <div class="home-links1">
+                <div class="home-items">
+                  <button class="home-link02 button button-clean">
+                    <h4>Phone: +1 (555) 123-4567</h4>
+                  </button>
+                  <button class="home-link02 button button-clean">
+                    <h4>Email: info@trishnawebworks.com</h4>
+                  </button>
+                  <br>
+                  <button class="home-link02 button button-clean">
+                    <h4>Copyright Information: © 2023 TrishnaWebWorks. All Rights Reserved.</h4>
+                  </button>
+                  <br>
+                  <button class="home-link02 button button-clean">
+                    <h4>Accessibility Links: </h4>
+                      <h5>Accessibility Statement - We're committed to making our website accessible for all users.</h5>
+                      <h5>WCAG Guidelines - Learn about the Web Content Accessibility Guidelines we follow.</h5>
+                    </button>
+                  <br>
+                  
+            <span class="home-copyright">
+              © 2022 Character. All Rights Reserved.
+            </span>
+          </div>
+        </section>
+        <div>
+
+
+
+          <div class="home-container4">
+            <script>
+              function initAccordion() {
+                /*
+                Accordion - Code Embed
+                */
+                const accordionContainers = document.querySelectorAll(
+                  '[data-role='accordion-container']'
+                ); // All accordion containers
+                const accordionContents = document.querySelectorAll(
+                  '[data-role='accordion-content']'
+                ); // All accordion content
+                const accordionIconsClosed = document.querySelectorAll(
+                  '[data-role='accordion-icon-closed']'
+                ); // All accordion closed icons
+                const accordionIconsOpen = document.querySelectorAll(
+                  '[data-role='accordion-icon-open']'
+                ); // All accordion open icons
+
+                accordionContents.forEach((accordionContent) => {
+                  accordionContent.style.display = 'none'; //Hides all accordion contents
+                });
+
+                accordionIconsClosed.forEach((icon) => {
+                  icon.style.display = 'flex';
+                });
+
+                accordionIconsOpen.forEach((icon) => {
+                  icon.style.display = 'none';
+                });
+
+                accordionContainers.forEach((accordionContainer, index) => {
+                  if (accordionContainer.classList.contains('initialised')) {
+                    return;
+                  }
+
+                  accordionContainer.classList.add('initiased');
+
+                  accordionContainer.addEventListener('click', () => {
+                    if (accordionContents[index].style.display === 'flex') {
+                      // If the accordion is already open, close it
+                      accordionContents[index].style.display = 'none';
+                      accordionIconsClosed[index].style.display = 'flex';
+                      accordionIconsOpen[index].style.display = 'none';
+                    } else {
+                      // If the accordion is closed, open it
+                      accordionContents.forEach((accordionContent) => {
+                        accordionContent.style.display = 'none'; //Hides all accordion contents
+                      });
+
+                      accordionIconsClosed.forEach((accordionIcon) => {
+                        accordionIcon.style.display = 'flex'; // Resets all icon transforms to 0deg (default)
+                      });
+
+                      accordionIconsOpen.forEach((accordionIcon) => {
+                        accordionIcon.style.display = 'none';
+                      });
+
+                      accordionContents[index].style.display = 'flex'; // Shows accordion content
+                      accordionIconsClosed[index].style.display = 'none'; // Rotates accordion icon 180deg
+                      accordionIconsOpen[index].style.display = 'flex';
+                    }
+                  });
+                });
+              }
+
+              initAccordion();
+            </script>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      data-section-id="navbar"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
